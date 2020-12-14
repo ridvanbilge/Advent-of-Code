@@ -21,7 +21,7 @@ for i in line_list:
     count = (len("".join(set(i))))
     count_sum1 += count
 
-print(f"Solution of Day1: {count_sum1}")
+print(f"Solution of Puzzle 1: {count_sum1}")
 
 # Solution 2
 sets = []
@@ -34,4 +34,4 @@ for j in line_list:
     count_sum2 += count
     sets = []
 
-print(f"Solution of Day1: {count_sum2}")
+print(f"Solution of Puzzle 2: {count_sum2}")
